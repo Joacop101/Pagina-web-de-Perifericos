@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Ventas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices-pc" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 5h6v14h-6z" />
+            <path d="M12 9h10v7h-10z" />
+            <path d="M14 19h6" />
+            <path d="M17 16v3" />
+            <path d="M6 13v.01" />
+            <path d="M6 16v.01" />
+          </svg>
+        </a>
+        <div class="cart">
+          <h2>Cart</h2>
+          <ul class="cart-items"></ul>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#ofertas">Ofertas</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      </header>
+    </nav>
+    <div class="hero">
+      <h1>Bienvenido a nuestra Página de Ventas</h1>
+      <p>Descubre increíbles ofertas en productos de calidad.</p>
+    </div>
+
+    <div class="slider-container">
+      <div class="slider">
+        <img src="imges/Banner/Banner1.jpg" alt="Image 1">
+        <img src="imges/Banner/combo1.jpg" alt="Image 2">
+        <img src="imges/Banner/auris1.jpg" alt="Image 3">
+      </div>
+    </div>
+    
+
+    <section id="productos" class="section">
+      <div class="container">
+        <h2>Productos destacados</h2>
+        <div class="product-list">
+          <div class="product">
+            <img src="imges/Banner/Banner2.jpg" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>Descripcion</p>
+            <button class="btn">Comprar ahora</button>
+          </div>
+          <div class="product">
+            <img src="imges/Banner/Mouse2.jpg" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Descripcion</p>
+            <a href="#" class="btn">Comprar ahora</a>
+          </div>
+          <div class="product">
+            <img src="imges/Banner/auris2.jpg" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Descripcion</p>
+            <a href="#" class="btn">Comprar ahora</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="ofertas" class="section">
+      <div class="container">
+        <h2>Ofertas especiales</h2>
+        <div class="specials-list">
+          <div class="special">
+            <img src="imges/Banner/Teclado2.jpg" alt="Oferta especial 1">
+            <h3>Oferta especial 3</h3>
+            <p>Descripcion</p>
+            <a href="#" class="btn">Comprar ahora</a>
+          </div>
+    
+          <div class="special">
+            <img src="imges/Banner/Mouse3.jpg" alt="Oferta especial 2">
+            <h3>Oferta especial 3</h3>
+            <p>Descripcion</p>
+            <a href="#" class="btn">Comprar ahora</a>
+          </div>
+
+          <div class="special">
+            <img src="imges/Banner/volante1.png" alt="Oferta especial 3">
+            <p>$12.99</p>
+            <p>Descripcion</p>
+            <a href="#" class="btn">Comprar ahora</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="section">
+    <div class="container">
+      <h2>Sobre nosotros</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum est non libero pellentesque, id euismod nisi lacinia. Aliquam erat volutpat. Aliquam nec convallis massa, a auctor metus. Etiam sagittis, risus ac rutrum lobortis, ex lectus gravida ipsum, id consequat nunc eros nec sapien.</p>
+      <p>Vestibulum bibendum nunc id enim lacinia, vitae consequat massa efficitur. Quisque aliquet ipsum ac justo efficitur gravida. In ultrices sollicitudin ante ut ullamcorper. Nam tristique, lacus eu vehicula aliquam, metus nulla porta sapien, ut sagittis erat mauris id turpis.</p>
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>¿Tienes alguna pregunta o consulta? ¡Contáctanos!</p>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+      <ul class="footer-links">
+        <li><a href="#">Términos de servicio</a></li>
+        <li><a href="#">Política de privacidad</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
